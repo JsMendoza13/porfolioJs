@@ -1,3 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-       background-color: #bce6df;
-  }
+  overflow-x: hidden;
+  background-color: #202020;
+  min-height: 100vh;
+}
+
+.paralax {
+  position: absolute;
+  height: 100%;
+}
+
+.paralax-item {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.p-item1 {
+  background: url(assets/background.png) center/cover no-repeat;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+section #fuji {
+  width: 100%;
+  height: 40%;
+  transform: translateY(65vh);
+  -webkit-transform: translateY(65vh);
+  -moz-transform: translateY(65vh);
+  -ms-transform: translateY(65vh);
+  -o-transform: translateY(65vh);
+}
+
+section #montan-1 {
+  width: 100%;
+  height: 35%;
+  transform: translateY(65vh);
+  -webkit-transform: translateY(65vh);
+  -moz-transform: translateY(65vh);
+  -ms-transform: translateY(65vh);
+  -o-transform: translateY(65vh);
+}
+
+section #text {
+  position: absolute;
+  font-size: 10vh;
+  text-align: center;
+  color: antiquewhite;
+  line-height: 0.55em;
+  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  -o-transform: translateY(-50px);
+}
+
+section #text span {
+  font-size: 0.2em;
+  letter-spacing: 2px;
+  font-weight: 400px;
+}
+
+#btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 30px;
+  background: #fff;
+  color: #094b65;
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -o-transform: translateY(100px);
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+  background: #001b18;
+}
+
+.sec h2 {
+  font-size: 3.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: #fff;
+}
