@@ -5,7 +5,7 @@ function App() {
  <Router>
 
   <Routes>
-      <Route path="/" elment={<Main />}>
+      <Route path="/" element={<Main />}>
       <Route path="*" element= {<div>404</div>} /> 
 
      </Route>
