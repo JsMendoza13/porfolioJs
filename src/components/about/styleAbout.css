@@ -152,3 +152,19 @@ div #section-info {
 .card-btn:active {
   transform: translateY(3px);
 }
+
+@media screen and (max-width: 480px) {
+  .sec {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    margin-bottom: 40px;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+}

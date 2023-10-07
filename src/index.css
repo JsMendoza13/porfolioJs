@@ -17,12 +17,28 @@
 
 body {
   overflow-x: hidden;
-  background-color: #202020;
   min-height: 100vh;
+  background-color: #000f1b;
+}
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+  background: #000f1b;
+  width: 12px;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgb(27, 26, 26);
+  border-radius: 20px;
 }
 
 .paralax-item {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
@@ -30,7 +46,7 @@ body {
 }
 
 .p-item1 {
-  opacity: 0.4;
+  opacity: 0.2;
   background: url(assets/background.png) center/cover no-repeat;
 }
 
@@ -66,7 +82,7 @@ section img {
 
 #moon {
   width: 100%;
-  height: 70%;
+  height: 50%;
   padding: 0 0 0 36rem;
   transform: translateY(8vh);
   animation: updown 3.5s linear infinite;
@@ -88,19 +104,11 @@ section img {
   width: 100%;
   height: 50%;
   transform: translateY(50vh);
-  -webkit-transform: translateY(50vh);
-  -moz-transform: translateY(50vh);
-  -ms-transform: translateY(50vh);
-  -o-transform: translateY(50vh);
 }
 #fujiMe {
   width: 100%;
   height: 40%;
   transform: translateY(63vh);
-  -webkit-transform: translateY(63vh);
-  -moz-transform: translateY(63vh);
-  -ms-transform: translateY(63vh);
-  -o-transform: translateY(63vh);
   opacity: 0.9;
 }
 
@@ -108,20 +116,12 @@ section img {
   width: 100%;
   height: 35%;
   transform: translateY(65vh);
-  -webkit-transform: translateY(65vh);
-  -moz-transform: translateY(65vh);
-  -ms-transform: translateY(65vh);
-  -o-transform: translateY(65vh);
 }
 
 #montan-2 {
   width: 100%;
   height: 45%;
   transform: translateY(60vh);
-  -webkit-transform: translateY(60vh);
-  -moz-transform: translateY(60vh);
-  -ms-transform: translateY(60vh);
-  -o-transform: translateY(60vh);
 }
 
 #text {
@@ -132,10 +132,6 @@ section img {
   line-height: 0.55em;
   font-family: "Times New Roman", Times, serif;
   transform: translateY(-120px);
-  -webkit-transform: translateY(-120px);
-  -moz-transform: translateY(-120px);
-  -ms-transform: translateY(-120px);
-  -o-transform: translateY(-120px);
 }
 
 #text span {
@@ -188,5 +184,34 @@ section img {
   }
   75% {
     transform: scale(0.95, 1.05);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #moon {
+    width: 50%;
+    padding: 0 0 0 2rem;
+    margin: 13rem 0 0 18rem;
+  }
+  #fujiMe {
+    padding: 2rem 0 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #text {
+    font-size: 2.3rem;
+  }
+  #text span {
+    font-size: 1rem;
+  }
+  #moon {
+    width: 50%;
+    height: 30%;
+    padding: 0 0 0 2rem;
+    margin: 9rem 0 0 14rem;
+  }
+  #fujiMe {
+    padding: 3rem 0 0 0;
   }
 }
