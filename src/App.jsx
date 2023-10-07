@@ -16,8 +16,6 @@ const App = () => {
       if (window.innerWidth < 768) {
         //codigo para pantallas pequeñas
         moon.style.top = 8 + value * -0.2 + "%";
-        moon.style.left = value * 2 + "px";
-        fuji.style.left = value * 0 + "px";
         fuji.style.top = value * 0.1 + "px";
         fujiMe.style.top = value * -0.1 + "px";
         montan1.style.top = value * 0.1 + "px";
