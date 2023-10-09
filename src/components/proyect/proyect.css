@@ -69,7 +69,7 @@
   cursor: pointer;
   transition: all 0.3s;
   color: #2f5373;
-  text-transform: uppercase;
+  font-weight: 600;
   font-size: 1rem;
   text-decoration: none;
 }
