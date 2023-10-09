@@ -1,8 +1,8 @@
 #experienceSeccion {
   line-height: 1.5;
   font-weight: 400;
-  color: whitesmoke;
-  min-height: 100vh;
+  color: rgb(241, 234, 225);
+  min-height: 80vh;
 }
 
 .container {

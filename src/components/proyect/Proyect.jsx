@@ -1,0 +1,74 @@
+import "./proyect.css";
+const Proyect = () => {
+  return (
+    <>
+      <div>
+        <div className="BlogCards">
+          <h2>Project / Participation</h2>
+          <p>
+            I have had the opportunity to participate in various projects and
+            also to undertake some on my own. Below, I present a list of some of
+            them.
+          </p>
+        </div>
+        <div className="cardProject">
+          <div className="contenCards">
+            <img src="src/assets/pagJoly.png" id="imgCards" alt="" />
+            <div className="overlay">
+              <h3> Project Joly 🥑</h3>
+              <p>
+                I developed this project as a presentation prototype using
+                technologies such as React, Vite, and Tailwind CSS. It is hosted
+                on Netlify.
+              </p>
+              <a
+                href="https://joly-guacamole.netlify.app//"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btnPages"
+              >
+                Visit site
+              </a>
+            </div>
+          </div>
+          <div className="contenCards">
+            <img src="src/assets/pagMaria.png" id="imgCards" alt="" />
+            <div className="overlay">
+              <h3>Project maria suculentas 🌱</h3>
+              <p>
+                I developed this project as a presentation prototype using
+                technologies such as React, Vite, and Tailwind CSS. It is hosted
+                on Netlify.
+              </p>
+              <a
+                href="https://mary-suculenta.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btnPages"
+              >
+                Visit site
+              </a>
+            </div>
+          </div>
+          <div className="contenCards">
+            <img src="src/assets/projectEpm.png" id="imgCards" alt="" />
+            <div className="overlay">
+              <h3>Project created in EPM ⚡</h3>
+              <p>
+                This project was created within a multinational company in
+                Colombia, 'EPM.' It was developed using low-code tools such as
+                PowerApps and Power Automate. It is an application designed for
+                generating reports on assets.
+              </p>
+              <a href="#" target="_blank" class="btnPages">
+                VIEW REVIEW
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Proyect;

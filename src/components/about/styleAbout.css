@@ -47,10 +47,6 @@ div #section-info {
   margin: -10px 0 0 90px;
   color: #0a6ad89c;
   transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
 }
 
 .linkCv:hover {

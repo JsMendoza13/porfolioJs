@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import About from "./components/about/About.jsx";
 import Experience from "./components/linetime/Experience.jsx";
+import Proyect from "./components/proyect/Proyect.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -71,6 +72,8 @@ const App = () => {
       <About />
       {""}
       <Experience />
+      {""}
+      <Proyect />
     </>
   );
 };

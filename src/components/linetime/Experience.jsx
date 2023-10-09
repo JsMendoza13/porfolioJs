@@ -73,6 +73,7 @@ const Experience = () => {
               <a
                 href="https://cu.epm.com.co/clientesyusuarios/"
                 className="titleExp"
+                target="_blank"
               >
                 Empresas Publicas De Medellín
               </a>
