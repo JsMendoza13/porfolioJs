@@ -137,6 +137,7 @@ section img {
 
 #text span {
   font-size: 0.3em;
+  padding-bottom: 4px;
   letter-spacing: 2px;
   font-weight: 400px;
   color: #fff4d0;
@@ -245,7 +246,7 @@ section img {
 
 @media screen and (max-width: 480px) {
   #text {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   #text span {
     font-size: 1rem;
@@ -261,13 +262,23 @@ section img {
     padding: 3rem 0 0 0;
   }
 
+  .footer__seccion {
+    padding: 1rem;
+  }
+
+  .footer__nav__github:hover,
+  .footer__nav__linnked:hover {
+    transform: none;
+  }
+
   .footer__conten {
     margin: 0 10px;
+    margin-top: 20px;
   }
 
   .footer__nav {
-    margin-right: 5px;
-    margin-top: -18px;
+    margin-right: -15px;
+    margin-top: -20px;
   }
 
   .footer__p {

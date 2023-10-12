@@ -148,11 +148,11 @@
 
 @media screen and (max-width: 480px) {
   .formTitle {
-    font-size: 3em;
+    font-size: 2.8em;
   }
 
   .form-container {
     width: 320px;
-    margin: 0 30px;
+    margin: 30px;
   }
 }
