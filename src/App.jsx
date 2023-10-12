@@ -3,6 +3,7 @@ import About from "./components/about/About.jsx";
 import Experience from "./components/linetime/Experience.jsx";
 import Proyect from "./components/proyect/Proyect.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./helper/Footer.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -69,7 +70,6 @@ const App = () => {
           <img src="/src/assets/montan2.png" id="montan-2" />
         </section>
       </section>
-
       <About />
       {""}
       <Experience />
@@ -77,6 +77,8 @@ const App = () => {
       <Proyect />
       {""}
       <Contact />
+      {""}
+      <Footer />
     </>
   );
 };

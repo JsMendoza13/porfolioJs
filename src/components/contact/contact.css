@@ -1,3 +1,8 @@
+.contenedorForm {
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+
 .formTitle {
   font-size: 3.5em;
   color: rgb(241, 234, 225);
@@ -118,17 +123,6 @@
   border-color: var(--main-color);
 }
 
-.form__mensaje__success {
-  font-size: 14px;
-  color: forestgreen;
-  padding-top: 5px;
-  display: none;
-}
-
-.form__mensaje__success-activo {
-  display: block;
-}
-
 /*Estilo de validaciones */
 
 .form-group-incorrecto .form__input {
@@ -144,4 +138,21 @@
 .form-group-incorrecto .form__validation_icon {
   color: #fd3838;
   opacity: 1;
+}
+
+@media screen and (min-width: 734px) {
+  .contenedorForm {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .formTitle {
+    font-size: 3em;
+  }
+
+  .form-container {
+    width: 320px;
+    margin: 0 30px;
+  }
 }

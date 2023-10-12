@@ -172,6 +172,49 @@ section img {
   animation: gelatine 0.5s 1;
 }
 
+/*FOOTER*/
+.footer__seccion {
+  border: 2px solid #2f5373;
+  box-shadow: -4px -10px #2f5373;
+  padding: 1rem;
+  margin: 0 20px;
+}
+
+.footer__conten {
+  margin: 0 25px;
+}
+
+.footer__nav a {
+  float: right;
+  margin-right: 20px;
+  margin-top: -15px;
+  padding: 10px 0;
+  transition: all 0.2s linear;
+}
+
+.footer__nav__github,
+.footer__nav__linnked {
+  position: relative;
+  color: #2f5373;
+  padding-left: 1rem;
+  justify-content: left;
+  font-size: 1.8rem;
+}
+
+.footer__nav__github:hover,
+.footer__nav__linnked:hover {
+  color: whitesmoke;
+  transform: scale(1.1);
+  transform: translateX(10px) translateY(-5px);
+}
+
+.footer__p {
+  color: #2f5373;
+  font-weight: 600;
+  font-size: 14px;
+}
+/*RESPONSIVE MOBILE*/
+
 @keyframes gelatine {
   0%,
   100% {
@@ -216,5 +259,18 @@ section img {
   }
   #fujiMe {
     padding: 3rem 0 0 0;
+  }
+
+  .footer__conten {
+    margin: 0 10px;
+  }
+
+  .footer__nav {
+    margin-right: 5px;
+    margin-top: -18px;
+  }
+
+  .footer__p {
+    font-size: 12px;
   }
 }

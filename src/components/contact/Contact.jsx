@@ -4,7 +4,6 @@ import { RiEmotionUnhappyFill } from "react-icons/ri";
 
 const Contact = () => {
   const [showUnhappyIcon, setShowUnhappyIcon] = useState(false);
-  const [showModal, setShowModal] = useState(false);
   const [canSubmit, setCanSubmit] = useState(false);
 
   const expresion = {
@@ -77,9 +76,6 @@ const Contact = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (canSubmit) {
-      setShowModal(true);
-    }
   };
 
   return (
@@ -87,13 +83,12 @@ const Contact = () => {
       <section id="form">
         <div className="contenedorForm">
           <h2 className="formTitle" id="contact">
-            Contact me 📧
+            Contact me 💌
           </h2>
 
           <div className="form-container">
             <form
-              action=""
-              //https://formsubmit.co/df6ca9cef3e73c5b0e6cab31a0e2b7ba
+              action="https://formsubmit.co/df6ca9cef3e73c5b0e6cab31a0e2b7ba"
               method="POST"
               className="form"
               id="form__id"
@@ -158,12 +153,7 @@ const Contact = () => {
                   value="Submit"
                   disabled={!canSubmit}
                 />
-                <p
-                  className="form__mensaje__success"
-                  id="form__mensaje__success"
-                >
-                  Se envió información!
-                </p>
+                <input type="hidden" name="_captcha" value="false"></input>
               </div>
             </form>
           </div>
