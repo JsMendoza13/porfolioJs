@@ -1,4 +1,8 @@
 import "./proyect.css";
+import imgEpm from "../../assets/projectEpm.png";
+import imgJoly from "../../assets/pagJoly.png";
+import imgMaria from "../../assets/pagMaria.png";
+
 const Proyect = () => {
   return (
     <>
@@ -13,7 +17,7 @@ const Proyect = () => {
         </div>
         <div className="cardProject">
           <div className="contenCards">
-            <img src="src/assets/projectEpm.png" id="imgCards" alt="" />
+            <img src={imgEpm} id="imgCards" alt="" />
             <div className="overlay">
               <h3>Project created in EPM ⚡</h3>
               <p>
@@ -29,7 +33,7 @@ const Proyect = () => {
           </div>
 
           <div className="contenCards">
-            <img src="src/assets/pagJoly.png" id="imgCards" alt="" />
+            <img src={imgJoly} id="imgCards" alt="" />
             <div className="overlay">
               <h3> Project Joly 🥑</h3>
               <p>
@@ -47,7 +51,7 @@ const Proyect = () => {
             </div>
           </div>
           <div className="contenCards">
-            <img src="src/assets/pagMaria.png" id="imgCards" alt="" />
+            <img src={imgMaria} id="imgCards" alt="" />
             <div className="overlay">
               <h3>Project maria suculentas 🌱</h3>
               <p>

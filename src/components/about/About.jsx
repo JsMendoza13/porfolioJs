@@ -27,7 +27,8 @@ const About = () => {
           </p>
           <a
             download="cvJs"
-            href="./src/assets/cv-np_merged.pdf"
+            href="https://drive.google.com/file/d/18hPl0roRDCq1z8rriMup_np7Qv18FT7U/view?usp=sharing"
+            target="_blank"
             className="linkCv"
           >
             download CV
@@ -40,7 +41,7 @@ const About = () => {
           <hr className="card-divider" />
           <div className="card-footer">
             <div className="card-contact">Contact:</div>
-            <a className="card-btn" href="index.html#contact">
+            <a className="card-btn" href="#contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
