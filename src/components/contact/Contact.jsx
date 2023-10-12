@@ -114,7 +114,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <p className="form__input-error">
-                  Your name is incorrect, please correct it.
+                  Your name is incorrect, please correct it. 🙄
                 </p>
               </div>
 

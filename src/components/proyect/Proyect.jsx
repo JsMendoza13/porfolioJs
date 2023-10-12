@@ -4,7 +4,7 @@ const Proyect = () => {
     <>
       <div>
         <div className="BlogCards">
-          <h2>Project / Participation</h2>
+          <h2>Projects 🤓</h2>
           <p>
             I have had the opportunity to participate in various projects and
             also to undertake some on my own. Below, I present a list of some of

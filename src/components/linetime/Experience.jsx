@@ -62,7 +62,7 @@ const Experience = () => {
     <>
       <div id="experienceSeccion">
         <div className="container">
-          <h2 className="top-section">Experience</h2>
+          <h2 className="top-section">Experience 🤝</h2>
         </div>
 
         <div className="timeline">
@@ -75,7 +75,7 @@ const Experience = () => {
                 className="titleExp"
                 target="_blank"
               >
-                Empresas Publicas De Medellín
+                💡 Empresas Publicas De Medellín
               </a>
               <span>6 month</span>
               <p>

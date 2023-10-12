@@ -6,7 +6,7 @@ const About = () => {
     <div id="section-info">
       <div className="sec">
         <div className="info">
-          <h2 id="about">About</h2>
+          <h2 id="about">About 🤔</h2>
           <p>
             Hi, I'm Jesús Mendoza. Junior software developer, I am a
             multifaceted person with that stands out for bringing so much
