@@ -26,7 +26,11 @@ const Proyect = () => {
                 PowerApps and Power Automate. It is an application designed for
                 generating reports on assets.
               </p>
-              <a href="#" target="_blank" className="btnPages">
+              <a
+                href="https://drive.google.com/file/d/14s7MQFTTdXUYIPiUFyJuFvHamvxDx1K-/view?usp=share_link"
+                target="_blank"
+                className="btnPages"
+              >
                 View review
               </a>
             </div>
