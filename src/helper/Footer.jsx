@@ -8,14 +8,14 @@ const Footer = () => {
         <nav className="footer__nav">
           <a
             className="footer__nav__github "
-            href="https://www.linkedin.com/in/jesus-mendoza-martinez/"
+            href="https://github.com/JsMendoza13"
             target="_blank"
           >
             <RiGithubFill />
           </a>
           <a
             className="footer__nav__linnked"
-            href="https://github.com/JsMendoza13"
+            href="https://www.linkedin.com/in/jesus-mendoza-martinez/"
             target="_blank"
           >
             <RiLinkedinBoxFill />
