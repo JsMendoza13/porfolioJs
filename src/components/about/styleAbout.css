@@ -3,7 +3,7 @@ div #section-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000f1b;
+  background: #00042b;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -57,7 +57,7 @@ div #section-info {
 .card {
   --font-color: #1363be;
   --font-color-sub: whitesmoke;
-  --bg-color: #000f1b;
+  --bg-color: #00042b;
   --main-color: #2f5373;
   --main-focus: #2d8cf0;
   width: 290px;
@@ -143,10 +143,6 @@ div #section-info {
 .card-img:hover {
   transform: translateY(-3px);
 }
-/*
-.card-btn:hover {
-  border: 2px solid var(--main-focus);
-}*/
 
 .card-btn:hover svg {
   fill: var(--main-focus);

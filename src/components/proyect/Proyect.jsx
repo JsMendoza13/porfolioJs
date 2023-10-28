@@ -6,7 +6,7 @@ import imgMaria from "../../assets/pagMaria.png";
 const Proyect = () => {
   return (
     <>
-      <div>
+      <div className="div__proyect">
         <div className="BlogCards">
           <h2>Projects 🤓</h2>
           <p>

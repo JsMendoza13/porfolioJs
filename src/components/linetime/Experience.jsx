@@ -69,7 +69,7 @@ const Experience = () => {
           <div className="line"></div>
           <div className="section">
             <div className="dead"> </div>
-            <div className="content">
+            <div className="div__content__epx">
               <a
                 href="https://cu.epm.com.co/clientesyusuarios/"
                 className="titleExp"

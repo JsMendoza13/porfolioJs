@@ -1,11 +1,13 @@
 .contenedorForm {
   min-height: 100vh;
+  background: #01041b;
+  padding: 40px 0 80px 0;
 }
 
 .formTitle {
   font-size: 3.5em;
   color: rgb(241, 234, 225);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -18,11 +20,8 @@
   border-radius: 5px;
   width: 400px;
   padding: 32px 24px;
-  margin: 30px 0;
+  margin: 0 auto;
   font-size: 14px;
-
-  flex-direction: column;
-  box-sizing: border-box;
 }
 
 .form-container .form {
@@ -156,6 +155,6 @@
 
   .form-container {
     width: 320px;
-    margin: 30px;
+    margin: 0 auto;
   }
 }
