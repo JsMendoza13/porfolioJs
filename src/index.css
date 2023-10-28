@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   opacity: 0.9;
-  background: url(assets/background.png) center/cover no-repeat;
+  background: url(assets/background.webp) center/cover no-repeat;
   min-height: 100vh;
   overflow: hidden;
 }

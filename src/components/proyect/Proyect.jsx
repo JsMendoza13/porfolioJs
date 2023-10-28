@@ -1,7 +1,7 @@
 import "./proyect.css";
-import imgEpm from "../../assets/projectEpm.png";
-import imgJoly from "../../assets/pagJoly.png";
-import imgMaria from "../../assets/pagMaria.png";
+import imgEpm from "../../assets/projectEpm.webp";
+import imgJoly from "../../assets/pagJoly.webp";
+import imgMaria from "../../assets/pagMaria.webp";
 
 const Proyect = () => {
   return (
