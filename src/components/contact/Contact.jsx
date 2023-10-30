@@ -83,7 +83,7 @@ const Contact = () => {
       <section id="form">
         <div className="contenedorForm">
           <h2 className="formTitle" id="contact">
-            Contact me 💌
+            Contact me.
           </h2>
 
           <div className="form-container">
@@ -95,7 +95,7 @@ const Contact = () => {
             >
               <div className="form-group" id="group__nombre">
                 <label htmlFor="nombre" className="lbl_form">
-                  You're name:
+                  You name:
                 </label>
                 <div className="form__input__div">
                   <input
@@ -115,7 +115,7 @@ const Contact = () => {
 
               <div className="form-group" id="group__email">
                 <label htmlFor="correo" className="lbl_form">
-                  You're email:
+                  You email:
                 </label>
                 <div className="form__input__div">
                   <input

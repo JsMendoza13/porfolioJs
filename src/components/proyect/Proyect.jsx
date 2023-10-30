@@ -8,7 +8,7 @@ const Proyect = () => {
     <>
       <div className="div__proyect">
         <div className="BlogCards">
-          <h2>Projects 🤓</h2>
+          <h2>Projects.</h2>
           <p>
             I have had the opportunity to participate in various projects and
             also to undertake some on my own. Below, I present a list of some of

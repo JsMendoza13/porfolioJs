@@ -5,6 +5,7 @@ import Proyect from "./components/proyect/Proyect.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./helper/Footer.jsx";
 import { Head } from "./helper/Head.jsx";
+import Skill from "./components/skill/Skill.jsx";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
 
       <About />
       {""}
-      <Experience />
+      <Skill />
       {""}
       <Proyect />
       {""}
