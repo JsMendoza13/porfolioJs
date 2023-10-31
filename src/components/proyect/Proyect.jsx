@@ -21,8 +21,7 @@ const Proyect = () => {
             <div className="overlay">
               <h3>Project created in EPM ⚡</h3>
               <p>
-                This project was created within a multinational company in
-                Colombia, 'EPM.' It was developed using low-code tools such as
+                This project it was developed using low-code tools such as
                 PowerApps and Power Automate. It is an application designed for
                 generating reports on assets.
               </p>

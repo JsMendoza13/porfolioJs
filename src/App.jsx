@@ -14,9 +14,9 @@ const App = () => {
       {""}
       <About />
       {""}
-      <Skill />
-      {""}
       <Proyect />
+      {""}
+      <Skill />
       {""}
       <Contact />
       {""}
