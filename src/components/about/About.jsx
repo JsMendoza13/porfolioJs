@@ -9,10 +9,9 @@ const About = () => {
         <div className="info">
           <h2 id="about">About. </h2>
           <p>
-            Hi, I'm Jesús Mendoza. Junior software developer, I am a
-            multifaceted person with that stands out for bringing so much
-            knowledge and creative ideas to the teams in which I am
-            participating, with an excellent personality and empathy.
+            I am a multifaceted person who stands out for bringing a lot of
+            knowledge and creative ideas to the teams in which I participate,
+            with an excellent personality and empathy.
             <br />
             <br />
             I am someone who likes to keep learning, to keep challenging myself,

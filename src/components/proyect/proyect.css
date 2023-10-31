@@ -57,12 +57,11 @@
 
 .contenCards h3 {
   color: rgb(241, 234, 225);
-  margin-bottom: -12px;
+  margin-bottom: -5px;
 }
 
 .contenCards p {
   color: whitesmoke;
-  text-align: center;
   padding: 10px;
 }
 
