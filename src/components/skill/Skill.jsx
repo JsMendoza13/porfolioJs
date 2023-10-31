@@ -1,6 +1,7 @@
 import React from "react";
 import "./skill.css";
 import { RiBracesFill, RiCodeSSlashLine } from "react-icons/ri";
+import InfiniteScroll from "../sliderInfinite/InfiniteScroll";
 
 const Skill = () => {
   return (
@@ -51,6 +52,7 @@ const Skill = () => {
             </div>
           </div>
         </div>
+        <InfiniteScroll />
       </div>
     </>
   );
