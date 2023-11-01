@@ -4,10 +4,10 @@ import "./styleAbout.css";
 
 const About = () => {
   return (
-    <div id="section-info">
+    <div className="section-info" id="about">
       <div className="sec">
         <div className="info">
-          <h2 id="about">About. </h2>
+          <h2>About. </h2>
           <p>
             I am a multifaceted person who stands out for bringing a lot of
             knowledge and creative ideas to the teams in which I participate,

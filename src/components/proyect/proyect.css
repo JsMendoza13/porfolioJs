@@ -17,11 +17,14 @@
 
 .BlogCards p {
   color: #fff;
+  text-align: center;
   font-weight: 500;
   font-size: 1rem;
   margin-bottom: 20px;
   line-height: 1.7;
   padding: 10px;
+  max-width: 650px;
+  padding: 0 35px;
 }
 
 .cardProject {
@@ -133,10 +136,6 @@
 @media screen and (max-width: 480px) {
   .BlogCards {
     margin-top: 60px;
-  }
-
-  .BlogCards p {
-    text-align: center;
   }
 
   .cardProject {

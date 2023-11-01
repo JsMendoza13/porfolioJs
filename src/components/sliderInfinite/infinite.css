@@ -9,7 +9,7 @@
 
 .tag-list {
   width: 100%;
-  max-width: 90vw;
+  max-width: 50vw;
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
@@ -66,5 +66,11 @@
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tag-list {
+    max-width: 70vw;
   }
 }

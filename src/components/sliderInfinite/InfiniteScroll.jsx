@@ -18,7 +18,7 @@ const InfiniteScroll = () => {
   ];
   const DURATION = 15000;
   const ROWS = 2;
-  const TAGS_PER_ROW = 10;
+  const TAGS_PER_ROW = 18;
 
   const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
   const shuffle = (arr) => [...arr].sort(() => 0.5 - Math.random());
