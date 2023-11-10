@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
-/* Se agrega tailwind */
-
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +30,35 @@ body::-webkit-scrollbar-button {
 body::-webkit-scrollbar-thumb {
   background: rgb(27, 26, 26);
   border-radius: 20px;
+}
+
+#button-up {
+  width: 60px;
+  height: 60px;
+  background: #2d8cda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 0.3s ease;
+  transform: scale(0);
+  z-index: 1px;
+}
+
+#button-up:hover {
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.RiArrowUpCircleFill {
+  font-size: 50px;
 }
 
 .section__head {
