@@ -188,8 +188,6 @@ ul li {
 }
 
 .div__content__typing {
-  justify-content: center;
-  align-items: center;
   position: absolute;
   top: 39%;
   left: 50%;
@@ -205,16 +203,17 @@ ul li {
   font-size: 4rem;
   color: whitesmoke;
   padding: 0 10.5px;
+  margin-top: 10px;
 }
 
 .div__typing__p {
-  animation: animacion-p 2.5s steps(35) 2.5s,
+  animation: animacion-p 2.5s steps(30) 2.5s,
     transparent-p 0.5s step-end 2.5s infinite alternate,
     mostrar-p 0s 2.5s forwards;
   white-space: nowrap;
   overflow: hidden;
   padding: 0 30px;
-  width: 16cm;
+  width: 15cm;
   font-size: 28px;
   color: whitesmoke;
   border-right: 3px solid;
@@ -255,7 +254,8 @@ ul li {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  left: 50%;
+  left: 55%;
+  margin-top: 30px;
   padding: 8px 30px;
   background: #fff;
   color: #000433;
@@ -480,6 +480,10 @@ v
     font-size: 18px;
     align-items: center;
     width: 10.3cm;
+  }
+
+  #btn {
+    margin-top: 0;
   }
 
   .footer__seccion {

@@ -4,6 +4,7 @@ import BtnUp from "../components/btnTop/BtnUp";
 export const Head = () => {
   return (
     <>
+      <BtnUp />
       <section className="section__head">
         <div className="content">
           <div className="visible">
@@ -22,7 +23,7 @@ export const Head = () => {
           </p>{" "}
         </div>
         <a href="#about" id="btn">
-          Explore
+          Explore.
         </a>{" "}
         <div className="div__head"></div>
         <ul className="circles">
@@ -37,7 +38,6 @@ export const Head = () => {
           <li></li>
           <li></li>
         </ul>
-        <BtnUp />
       </section>
     </>
   );

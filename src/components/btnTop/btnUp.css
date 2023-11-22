@@ -20,6 +20,6 @@
 
 @media screen and (max-width: 480px) {
   .RiArrowUpCircleFill {
-    box-shadow: none;
+    display: none;
   }
 }
