@@ -70,7 +70,7 @@
 
 .seccion__skill h1 {
   font-size: 3.5em;
-  color: rgb(241, 234, 225);
+  color: beige;
   text-align: center;
   padding: 10px 0;
 }
@@ -85,7 +85,7 @@
 
 .container__cards__skill .cards__skill .card__face.face_dos {
   position: relative;
-  background: whitesmoke;
+  background: beige;
   display: flex;
   justify-content: center;
   align-items: center;

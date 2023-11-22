@@ -6,7 +6,7 @@
 
 .formTitle {
   font-size: 3.5em;
-  color: rgb(241, 234, 225);
+  color: beige;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -45,7 +45,7 @@
 .lbl_form {
   font-weight: 600;
   font-size: 14px;
-  color: whitesmoke;
+  color: beige;
   letter-spacing: 1px;
   padding-bottom: 10px;
 }
@@ -99,7 +99,7 @@
 }
 
 .textArea {
-  color: whitesmoke;
+  color: beige;
 }
 
 .form-submit-btn {
@@ -113,7 +113,7 @@
   text-decoration: none;
   text-align: center;
   transition: all 0.3s;
-  color: antiquewhite;
+  color: beige;
 }
 
 .form-submit-btn:hover {

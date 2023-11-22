@@ -11,15 +11,14 @@
 .BlogCards h2 {
   text-align: center;
   font-size: 3.5em;
-  color: rgb(241, 234, 225);
+  color: beige;
   margin-bottom: 10px;
 }
 
 .BlogCards p {
-  color: #fff;
+  color: #e9e9e9;
   font-weight: 500;
   font-size: 1rem;
-
   margin-bottom: 20px;
   line-height: 1.7;
   max-width: 650px;
@@ -58,7 +57,7 @@
 }
 
 .contenCards h3 {
-  color: rgb(241, 234, 225);
+  color: beige;
   margin-bottom: -5px;
 }
 
