@@ -27,7 +27,7 @@ const About = () => {
           </p>
           <a
             download="cvJs"
-            href="https://drive.google.com/file/d/18hPl0roRDCq1z8rriMup_np7Qv18FT7U/view?usp=sharing"
+            href="https://drive.google.com/file/d/1latGnPDUPrYUiBN12iHVPSekrrmGV7JZ/view?usp=sharing"
             target="_blank"
             className="linkCv"
           >
