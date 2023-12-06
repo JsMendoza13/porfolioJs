@@ -1,6 +1,6 @@
 import "./proyect.css";
 import imgEpm from "../../assets/projectEpm.webp";
-import imgJoly from "../../assets/pagJoly.webp";
+import imgMary from "../../assets/pagMaria.webp";
 import imgDrink from "../../assets/api-drink.webp";
 
 const Proyect = () => {
@@ -21,8 +21,8 @@ const Proyect = () => {
             <div className="overlay">
               <h3>Project API Cocktails 🍷</h3>
               <p>
-                In this project he interacted with a free API on cocktails,
-                which is still in progress.
+                In this project he interacted with a free API on cocktails,Using
+                technologies such as Vite.js, HTML, CSS.
               </p>
               <a
                 href="https://api-drink-js1312.netlify.app/"
@@ -54,16 +54,16 @@ const Proyect = () => {
           </div>
 
           <div className="contenCards">
-            <img src={imgJoly} id="imgCards" alt="" />
+            <img src={imgMary} id="imgCards" alt="" />
             <div className="overlay">
-              <h3> Project Joly 🥑</h3>
+              <h3> Mary Suculentas 🌱</h3>
               <p>
                 I developed this project as a presentation prototype using
                 technologies such as React, Vite, and Tailwind CSS. It is hosted
                 on Netlify.
               </p>
               <a
-                href="https://joly-guacamole.netlify.app//"
+                href="https://mary-suculenta.netlify.app/"
                 target="_blank"
                 className="btnPages"
               >
