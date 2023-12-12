@@ -11,15 +11,21 @@
 }
 
 body {
+  background: #01041b;
   overflow-x: hidden;
   min-height: 100vh;
-  background: #01041b;
+  background-image: linear-gradient(
+    180deg,
+    #000435 0,
+    #010425 50%,
+    #01041b 100%
+  );
 }
 
 /* Scrollbar */
 
 body::-webkit-scrollbar {
-  background: #0004345b;
+  background: #00042b;
   width: 12px;
 }
 
@@ -449,7 +455,7 @@ v
 }
 
 .footer__p {
-  color: #2f5373;
+  color: #2d8cf0;
   font-weight: 600;
   font-size: 14px;
 }

@@ -25,14 +25,24 @@ const About = () => {
             If you want to know more about me, you can download my CV at the
             following link.
           </p>
-          <a
-            download="cvJs"
-            href="https://drive.google.com/file/d/1latGnPDUPrYUiBN12iHVPSekrrmGV7JZ/view?usp=sharing"
-            target="_blank"
-            className="linkCv"
-          >
-            download CV
-          </a>
+          <div className="Links__cv">
+            <a
+              download="cvJsEs"
+              href="https://drive.google.com/file/d/1J61wBe0t8WWM0fKxRaqFebdnbgNfQ27u/view?usp=sharing"
+              target="_blank"
+              className="linkCv"
+            >
+              CV Español
+            </a>
+            <a
+              download="cvJsEng"
+              href="https://drive.google.com/file/d/14aktG2JGnHU0awgO8yW3dNf_NbHgoaDy/view?usp=sharing"
+              target="_blank"
+              className="linkCv"
+            >
+              CV English
+            </a>
+          </div>
         </div>
         <div className="card">
           <div className="card-img">

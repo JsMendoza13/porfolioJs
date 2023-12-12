@@ -17,7 +17,7 @@ const Proyect = () => {
         </div>
         <div className="cardProject">
           <div className="contenCards">
-            <img src={imgDrink} id="imgCards" alt="" />
+            <img src={imgDrink} id="imgCards" alt="captura-aplicativo-api" />
             <div className="overlay">
               <h3>Project API Cocktails 🍷</h3>
               <p>
@@ -35,7 +35,7 @@ const Proyect = () => {
           </div>
 
           <div className="contenCards">
-            <img src={imgEpm} id="imgCards" alt="" />
+            <img src={imgEpm} id="imgCards" alt="captura-aplicativo-epm" />
             <div className="overlay">
               <h3>Project created in EPM ⚡</h3>
               <p>
@@ -54,7 +54,7 @@ const Proyect = () => {
           </div>
 
           <div className="contenCards">
-            <img src={imgMary} id="imgCards" alt="" />
+            <img src={imgMary} id="imgCards" alt="captura-wen-suculenta" />
             <div className="overlay">
               <h3> Mary Suculentas 🌱</h3>
               <p>

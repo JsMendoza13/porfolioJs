@@ -38,18 +38,31 @@
   line-height: 1.5;
 }
 
+.Links__cv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  margin-left: -30px;
+}
+
 .linkCv {
+  text-align: center;
   letter-spacing: 4px;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
-  margin: -10px 0 0 90px;
-  color: #0a6ad89c;
+  padding: 5px;
+  color: #2d8cda;
   transition: 0.3s;
+  border: 1px solid #2d8cda;
+  border-radius: 5px;
 }
 
 .linkCv:hover {
-  color: #2d8cf0;
+  color: #75b7ff;
+  border: 1px solid #75b7ff;
   background: none;
 }
 
@@ -156,6 +169,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .Links__cv {
+    margin: 0;
+  }
+
   .sec {
     display: block;
     justify-content: center;
