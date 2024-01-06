@@ -210,6 +210,17 @@ ul li {
   margin-top: 10px;
 }
 
+.div__typing span {
+  background: linear-gradient(
+    71deg,
+    rgba(255, 254, 234, 1) 13%,
+    rgba(63, 202, 236, 1) 53%,
+    rgba(45, 140, 218, 1) 81%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);

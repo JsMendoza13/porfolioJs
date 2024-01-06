@@ -17,7 +17,9 @@ export const Head = () => {
           </div>
         </div>
         <div className="div__content__typing">
-          <h1 className="div__typing">Thanks for being here</h1>
+          <h1 className="div__typing">
+            Thanks <span>for being here.</span>
+          </h1>
           <p className="div__typing__p">
             I invite you to get to know me a little bit.
           </p>{" "}
