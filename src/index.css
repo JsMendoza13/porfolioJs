@@ -195,52 +195,64 @@ ul li {
 
 .div__content__typing {
   position: absolute;
-  top: 39%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 29%;
 }
 
 .div__typing {
-  animation: animacion 2.5s steps(35),
-    transparent-animation 0.5s step-end infinite alternate;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   white-space: nowrap;
-  width: 18cm;
+  text-align: center;
+  width: 28cm;
   overflow: hidden;
-  font-size: 4rem;
+  font-size: 5rem;
   color: whitesmoke;
   padding: 0 10.5px;
   margin-top: 10px;
 }
 
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 .div__typing__p {
-  animation: animacion-p 2.5s steps(30) 2.5s,
-    transparent-p 0.5s step-end 2.5s infinite alternate,
-    mostrar-p 0s 2.5s forwards;
+  margin-left: 135px;
+  margin-top: -10px;
   white-space: nowrap;
-  overflow: hidden;
-  padding: 0 30px;
-  width: 15cm;
+  overflow-x: hidden;
+  width: 14cm;
   font-size: 28px;
   color: whitesmoke;
   border-right: 3px solid;
   opacity: 0;
-}
-
-@keyframes animacion {
-  from {
-    width: 0px;
-  }
+  animation: animacion-p 2.3s steps(30) 1.34s,
+    transparent-p 0.5s step-end 0.5s infinite alternate,
+    mostrar-p 0s 1.38s forwards;
 }
 
 @keyframes animacion-p {
   from {
     width: 0px;
-  }
-}
-
-@keyframes transparent-animation {
-  50% {
-    border-color: transparent;
   }
 }
 
@@ -462,12 +474,18 @@ v
 
 @media screen and (max-width: 1100px) {
   .div__content__typing h1 {
-    text-align: center;
+    font-size: 4rem;
     width: 17.8cm;
+    margin-top: 35px;
   }
 
   .div__typing__p {
-    padding: 0 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+
+  #btn {
+    margin-top: -35px;
   }
 
   .footer__seccion {
@@ -484,12 +502,7 @@ v
 
   .div__typing__p {
     font-size: 18px;
-    align-items: center;
-    width: 10.3cm;
-  }
-
-  #btn {
-    margin-top: 0;
+    width: 8.6cm;
   }
 
   .footer__seccion {
